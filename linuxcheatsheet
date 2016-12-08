@@ -1,0 +1,8 @@
+rsync -a ~/dir1 username@remote_host:destination_directory
+
+cd /etc
+sudo vi bashrc
+Add the following like:
+
+alias ll="ls -lrt"
+Finally restart Terminal.
