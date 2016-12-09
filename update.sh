@@ -15,9 +15,8 @@ echo You Chose: $varname
 
 if [ $varname == '1' ]
 then
+  echo "1 - You Chose >>> Install or Update HRG"
   git clone https://github.com/HaasResearch/devops
-  #  echo "1 - You Chose >>> Install or Update HRG"
-  echo "hello there!"
   echo -e "export PATH=$PATH:~/bin \n" >> $HOME/.bashrc
   mkdir ~/bin
   source $HOME/.bashrc
